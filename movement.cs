@@ -14,6 +14,7 @@ public partial class movement : Sprite2D
 		float AMOUNT = 5;
 		if (Input.IsKeyPressed((int)Key.W)){
 			Position += new Vector2(0,-AMOUNT);
+			caca
 		}
 	}
 }
